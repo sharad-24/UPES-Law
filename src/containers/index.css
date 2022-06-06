@@ -1,0 +1,12 @@
+.bgImage{
+    width: 100%!important;
+height: 100%!important;
+background-image: url('../images/law-school.jpg')!important;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bgText {
+    filter: blur(0px)!important;
+  -webkit-filter: blur(0px)!important;
+  }
