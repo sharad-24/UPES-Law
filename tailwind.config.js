@@ -35,7 +35,7 @@ module.exports = {
       }),
       extend: {
           colors: {
-        'nav': '#cd159c',
+        'nav': '#41afe1',
         'purpel': '#a218dd',
       },
     },

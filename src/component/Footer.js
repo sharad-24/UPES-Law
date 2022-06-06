@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { withRouter } from "react-router-dom";
 import { Grid } from '@material-ui/core';
-// import FacebookIcon from '@mui/icons-material/Facebook';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 import '../component/index.css'
 
@@ -13,8 +17,22 @@ function Footer() {
             <div className="flex justify-center">
                 <h className="p-10 text-3xl text-white font-bold">Follow Us On</h>
             </div>
-            <div>
-              
+            <div className="flex justify-center pb-10">
+            <div className="pl-2 pr-2">
+                <a href="https://www.facebook.com/UPESddnuk"><FacebookIcon/></a>
+            </div>
+            <div className="pl-2 pr-2">
+                <a href="https://www.linkedin.com/school/upesdehradun/"><LinkedInIcon/></a>
+            </div>
+            <div className="pl-2 pr-2">
+                <a href="https://www.instagram.com/upes_dehradun/"><InstagramIcon/></a>
+            </div>
+            <div className="pl-2 pr-2">
+                <a href="https://twitter.com/UPESDehradun"><TwitterIcon/></a>
+            </div>
+            <div className="pl-2 pr-2">
+                <a href="https://www.youtube.com/user/UPESUniversity/featured"><YouTubeIcon/></a>
+            </div>
             </div>
 
             <Grid container className="">
