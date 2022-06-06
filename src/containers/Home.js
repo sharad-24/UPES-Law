@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 function Home() {
     return (
         <>
-           <h className="underline flex justify-center">welcome</h>
+           <h className="underline flex justify-center">welcome to UPES-LAW</h>
         </>
     );
 }
