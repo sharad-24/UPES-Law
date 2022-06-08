@@ -10,6 +10,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import '../containers/index.css';
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 
 import img3 from '../images/img3.jpeg';
 
@@ -20,13 +22,14 @@ function Editors() {
 
     return (
         <>
+        <Navbar/>
             <div className="flex justify-center">
                 <h className="text-3xl font-bold underline pt-5">Board of Editors/Board of Advisors/Peer Review Board</h>
 
             </div>
             <Grid container className="">
                 <Grid item xs={0}></Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -48,7 +51,7 @@ function Editors() {
                         </Card>
                     </div>
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -71,7 +74,7 @@ function Editors() {
                         </Card>
                     </div>
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -94,7 +97,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -117,7 +120,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -140,7 +143,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -163,7 +166,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -187,7 +190,7 @@ function Editors() {
 
                 </Grid>
 
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -210,7 +213,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -234,7 +237,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -257,7 +260,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -280,7 +283,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -303,7 +306,7 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={2} className="p-5 pt-10">
+                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -353,6 +356,7 @@ function Editors() {
 
                 <Grid item xs={0}></Grid>
             </Grid>
+            <Footer/>
         </>
     );
 }

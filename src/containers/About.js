@@ -10,6 +10,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 import '../containers/index.css';
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 
 import img1 from '../images/law-school.jpg';
 import img2 from '../images/img2.jpg';
@@ -22,13 +24,14 @@ function About() {
 
     return (
         <>
+        <Navbar/>
         <div className="flex justify-center">
             <h className="text-3xl font-bold underline pt-5">ABOUT US</h>
 
         </div>
             <Grid container className="">
                 <Grid item xs={0}></Grid>
-                <Grid item xs={4} className="p-5 pt-10">
+                <Grid item xs={12} md={4} lg={4} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 345 }}>
                             <CardActionArea>
@@ -62,7 +65,7 @@ function About() {
                         </Card>
                     </div>
                 </Grid>
-                <Grid item xs={4} className="p-5 pt-10">
+                <Grid item xs={12} md={4} lg={4} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 345 }}>
                             <CardActionArea>
@@ -94,7 +97,7 @@ function About() {
                     </div>
 
                 </Grid>
-                <Grid item xs={4} className="p-5 pt-10">
+                <Grid item xs={12} md={4} lg={4} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 345 }}>
                             <CardActionArea>
@@ -127,6 +130,7 @@ function About() {
                 </Grid>
                 <Grid item xs={0}></Grid>
             </Grid>
+            <Footer/>
         </>
     );
 }

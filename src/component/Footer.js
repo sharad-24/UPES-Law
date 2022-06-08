@@ -37,7 +37,7 @@ function Footer() {
 
             <Grid container className="">
                 <Grid item xs={0}></Grid>
-                <Grid item xs={3} className="p-5 pt-0">
+                <Grid item xs={12} md={3} lg={3} className="p-5 pt-0">
                     <div>
                         <div className="flex justify-center">
                             <h className="text-custom text-white font-bold">CAMPUS - ENERGY ACRES</h>
@@ -47,7 +47,7 @@ function Footer() {
                         </div>
                     </div>
                 </Grid>
-                <Grid item xs={3} className="p-5 pt-0">
+                <Grid item xs={12} md={3} lg={3} className="p-5 pt-0">
                     <div className="flex justify-center">
                         <h className="text-custom text-white font-bold">CAMPUS - KNOWLEDGE ACRES</h>
                     </div>
@@ -56,7 +56,7 @@ function Footer() {
                     </div>
 
                 </Grid>
-                <Grid item xs={3} className="p-5 pt-0">
+                <Grid item xs={12} md={3} lg={3} className="p-5 pt-0">
                     <div className="flex justify-center">
                         <h className="text-custom text-white font-bold">CORPORATE OFFICE</h>
                     </div>
@@ -64,7 +64,7 @@ function Footer() {
                         <h className="text-custom text-white">University of Petroleum and Energy StudiesUpper Ground & First Floor, Greater Kailash-II, New Delhi-110048</h>
                     </div>
                 </Grid>
-                <Grid item xs={3} className="p-5 pt-0">
+                <Grid item xs={12} md={3} lg={3} className="p-5 pt-0">
                     <div className="flex justify-center">
                         <h className="text-custom text-white font-bold">CONTACT</h>
                     </div>
