@@ -13,7 +13,10 @@ import '../containers/index.css';
 import Navbar from "../component/Navbar";
 import Footer from "../component/Footer";
 
-import img3 from '../images/img3.jpeg';
+import img1 from '../images/sunil.jpg';
+import img2 from '../images/mehreen.jpg';
+import img3 from '../images/sikhsha.jpg';
+import img4 from '../images/vijay.jpg';
 
 function Editors() {
     useEffect(() => {
@@ -24,19 +27,19 @@ function Editors() {
         <>
         <Navbar/>
             <div className="flex justify-center">
-                <h className="text-3xl font-bold underline pt-5">Board of Editors/Board of Advisors/Peer Review Board</h>
+                <h className="text-3xl font-bold underline pt-5">Board of Editors</h>
 
             </div>
             <Grid container className="">
                 <Grid item xs={0}></Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
+                <Grid item xs={6} md={3} lg={3} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image={img3}
+                                    image={img1}
                                     alt="green iguana"
                                 />
                                 <CardContent>
@@ -51,30 +54,29 @@ function Editors() {
                         </Card>
                     </div>
                 </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
+                <Grid item xs={6} md={3} lg={3} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image={img3}
+                                    image={img2}
                                     alt="green iguana"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Mamta Rana
+                                    Mehreen Manzoor
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Associate Professor of Law at HNBGU
-                                        A Central University of Garhwal.
+                                    Assistant Professor
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
                         </Card>
                     </div>
                 </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
+                <Grid item xs={6} md={3} lg={3} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
@@ -86,33 +88,10 @@ function Editors() {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Himanshu Pandey
+                                    Dr. Shikha Dimri
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Associate Professor of Law, MNLU Nagpur
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Priya A Sondhi
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Associate Professor Bennet University, Greater Noida
+                                    Sr. Associate Professor
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -120,22 +99,22 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
+                <Grid item xs={6} md={3} lg={3} className="p-5 pt-10">
                     <div data-aos="flip-up">
                         <Card sx={{ maxWidth: 150 }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
                                     height="140"
-                                    image={img3}
+                                    image={img4}
                                     alt="green iguana"
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Rana Navneet Roy
+                                    Dr Vijay Kumar Singh
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
-                                        Associate Professor, HNLU
+                                    Dean, School of Law
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
@@ -143,217 +122,6 @@ function Editors() {
                     </div>
 
                 </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        DR. Sharanjit
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Associate Professor, RGNUL
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Dolly Jabbal
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Professor, NLUO
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Sachiv Kumar
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Joint Registrar NCLT Ahmedabad Bench
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Prof. (Dr.) Sreejith S.G.
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Professor and Executive Dean, Jindal Global Law School,
-                                        O.P. Jindal Global University
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Dr. Sandeepa Bhat
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Professor, WBNUJS
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Prof. (Dr.) Ajay Kumar
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        CNLU Patna
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Chandra Shekhar
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        District Judge, Delhi
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                <Grid item xs={6} md={2} lg={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        Raghavend GR
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                        Joint Secretary, Department of Justice Ministry of Law &amp; Justice,
-                                        Government of India
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid>
-                {/* <Grid item xs={2} className="p-5 pt-10">
-                    <div data-aos="flip-up">
-                        <Card sx={{ maxWidth: 150 }}>
-                            <CardActionArea>
-                                <CardMedia
-                                    component="img"
-                                    height="140"
-                                    image={img3}
-                                    alt="green iguana"
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                    
-                                    </Typography>
-                                    <Typography variant="body2" color="text.secondary">
-                                    
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </div>
-
-                </Grid> */}
-
                 <Grid item xs={0}></Grid>
             </Grid>
             <Footer/>

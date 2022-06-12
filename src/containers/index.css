@@ -10,3 +10,7 @@ background-size: cover;
     filter: blur(0px)!important;
   -webkit-filter: blur(0px)!important;
   }
+
+.imgWidth{
+    width: 100%!important;
+}

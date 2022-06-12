@@ -11,9 +11,12 @@ import Footer from "../component/Footer";
 import '../containers/index.css';
 import { Grid } from "@material-ui/core";
 
-import img1 from '../images/law-school.jpg';
-import img2 from '../images/img2.jpg';
-import img3 from '../images/img3.jpeg';
+import img1 from '../images/sol_1.jpg';
+import img2 from '../images/design.png';
+import img3 from '../images/court.jpg';
+import img4 from '../images/classroom.jpg';
+import img5 from '../images/computing.jpg';
+import img6 from '../images/hostel.jpg';
 
 
 function Home() {
@@ -25,10 +28,64 @@ function Home() {
         <>
             <Navbar />
             <Grid item container>
-            <Grid item xs={12}>
-            <img src={img1} alt="loading"/>
+                <Grid item xs={12}>
+                    <img src={img1} alt="loading" />
+                </Grid>
             </Grid>
+
+            <Grid item container>
+                <Grid item xs={12} md={2} lg={2}>
+                </Grid>
+                <Grid item xs={12} md={8} lg={8}>
+                    <div className="flex justify-center">
+                        <h className="text-3xl font-bold underline pt-5 pb-5">DESIGN YOUR OWN DEGREE</h>
+                    </div>
+                    <div className="flex justify-center"></div>
+                    <img src={img2} alt="loading" />
+                </Grid>
+                <Grid item xs={12} md={2} lg={2}>
+                </Grid>
             </Grid>
+
+            <div className="flex justify-center">
+                <h className="text-3xl font-bold underline pt-5 pb-5">DESIGN YOUR OWN DEGREE</h>
+            </div>
+
+            <Grid item container>
+                <Grid item xs={0} md={2} lg={2}>
+                </Grid>
+                <Grid item xs={12} md={2} lg={2} className="p-5">
+                    <img className="imgWidth" src={img3} alt="loading" />
+                    <div className="flex justify-center">
+                        <h className="text-3xl font-bold underline pt-5 pb-5">Moot Court</h>
+                    </div>
+
+                </Grid>
+                <Grid item xs={12} md={2} lg={2} className="p-5">
+                    <img className="imgWidth" src={img4} alt="loading" />
+                    <div className="flex justify-center">
+                        <h className="text-3xl font-bold underline pt-5 pb-5">Classroom</h>
+                    </div>
+
+                </Grid>
+                <Grid item xs={12} md={2} lg={2} className="p-5">
+                    <img className="imgWidth" src={img5} alt="loading" />
+                    <div className="flex justify-center">
+                        <h className="text-3xl font-bold underline pt-5 pb-5">Computing Centre</h>
+                    </div>
+
+                </Grid>
+                <Grid item xs={12} md={2} lg={2} className="p-5">
+                    <img className="imgWidth" src={img6} alt="loading" />
+                    <div className="flex justify-center">
+                        <h className="text-3xl font-bold underline pt-5 pb-5">Hostel</h>
+                    </div>
+
+                </Grid>
+                <Grid item xs={0} md={2} lg={2}>
+                </Grid>
+            </Grid>
+
             <Footer />
         </>
     );
